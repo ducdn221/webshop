@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li,ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.w-content-full{
+    width: 100%;
+    margin: 0 auto;
+}
+.w-content {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.header-top {
+    background: #f1f1f1;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex .col {
+    flex: 1;
+}
+
+.hotline span{
+    display: inline-block;
+    padding: 4px 5px 3px 0px;
+    margin-right: 15px;
+}
+
+.hotline span i {
+    padding: 5px 8px;
+    background: #aeaeae;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.menu-fast{
+    clear: both;
+}
+
+.menu-fast ul {
+    display: flex;
+    height: 33px;
+}
+
+.menu-fast ul li {
+    flex: 1;
+    padding: 5px 0;
+}
+
+
+.menu-fast ul li a{
+    color: #000;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-left: 1px solid #000;
+}
+
+.menu-fast ul li a:hover {
+    color:#b88b48;
+}
+
+.flex .col-1{
+    flex-grow: 1;
+}
+
+.flex .col-5{
+    flex-grow: 5;
+}
+
+.header-bottom {
+    background:#fff;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.menu-top {
+    clear: both;
+    height: 106px;
+    padding-right: 20px;
+    position: relative;
+
+}
+
+.menu-top ul {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+
+.menu-top ul li{
+    display: inline-block;
+}
+
+.menu-top ul li a{
+    display: block;
+    padding: 5px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.slider img{
+    width: 100%;
+}
+
+.menu-top ul li a:hover{
+    color: red;
+}
+
+.search {
+    position: absolute;
+    bottom: 25px;
+    right: 0px;
+}
+
+
+/* Danh muc */
+.c20{
+    height: 20px;
+}
+.c40 {
+    height: 40px;
+}
+.category-item {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.cate-last {
+    margin-right: 0;
+}
+
+.item-img {
+    display: block;
+    overflow: hidden;
+}
+
+.item-img img {
+    transition: all .5s;
+    transform: scale(1);
+    max-width: 100%;
+}
+
+.item-img:hover img {
+    transform: scale(1.1);
+}
+
+.cate-name {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.cate-name a{
+    color: #000;
+}
+
+.cate-name a:hover {
+    color: red;
+}
+/* End Danh muc */
+
+/* San pham */
+.p-title-home {
+    font-size:17px;
+    text-align: center;
+    position: relative;
+}
+
+.p-title-home::before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #e7e7e6;
+    left: 0px;
+    top: 50%;
+    position: absolute;
+}
+
+.p-title-home span {
+    text-transform: uppercase;
+    z-index: 9;
+    position: relative;
+    background: #fff;
+    display: inline;
+    padding: 0 15px;
+}
+/* End San pham */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *, *:before, *:after
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+    
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: #444444;
+    
+    color: #cccccc;
+    font-size: 14px;
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.flexbox-parent
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox-item
+{
+    padding: 8px;
+}
+.flexbox-item-grow
+{
+    flex: 1;
+}
+
+.flexbox-item.header
+{
+    background: blue;
+}
+.flexbox-item.footer
+{
+   background: white;
+}
+.flexbox-item.content
+{
+    background: rgba(0, 0, 255, .1);
+}
+
+.fill-area
+{
+    display: flex;
+    flex-direction: row;
+}
+.fill-area-content
+{
+    border: 1px solid #000000;
+    
+    overflow: auto; 
+} */
+
